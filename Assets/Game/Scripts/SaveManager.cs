@@ -212,7 +212,13 @@ public class SaveManager : MonoBehaviour
         if (File.Exists(Application.persistentDataPath + "/scene2.json")) File.Delete(Application.persistentDataPath + "/scene2.json");
         if (File.Exists(Application.persistentDataPath + "/scene3.json")) File.Delete(Application.persistentDataPath + "/scene3.json");
         if (File.Exists(Application.persistentDataPath + "/scene4.json")) File.Delete(Application.persistentDataPath + "/scene4.json");
-   
+        
+        // Очищаем quest_fabian.json из StreamingAssets
+        string questFilePath = Path.Combine(Application.streamingAssetsPath, "quest_fabian.json");
+        if (File.Exists(questFilePath))
+        {
+            File.WriteAllText(questFilePath, "");
+        }
     }
 }
 
