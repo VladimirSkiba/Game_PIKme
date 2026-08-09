@@ -5,7 +5,6 @@
 [![Unity](https://img.shields.io/badge/Unity-2022+-black?logo=unity)](https://unity.com/)
 [![C#](https://img.shields.io/badge/C%23-Gameplay%20%26%20Systems-purple?logo=csharp)](https://docs.microsoft.com/en-us/dotnet/csharp/)
 [![Python](https://img.shields.io/badge/Python-Vosk%20IPC-blue?logo=python)](https://alphacephei.com/vosk/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > 🎮 **Скачать билд (Windows):** [Перейти в Releases](https://github.com/VladimirSkiba/Game_PIKme/releases)
 > 💻 **Исходный код:** [Game_PIKme](https://github.com/VladimirSkiba/Game_PIKme)
